@@ -1,3 +1,6 @@
+*{
+        font-family: 'Quicksand', sans-serif;
+}
 body{
     background-repeat:no-repeat; /*dòng này bắt buộc phải có*/
     /* các màu được xắp xếp theo thứ tự để tạo ra nền xen kẽ 2 màu*/
