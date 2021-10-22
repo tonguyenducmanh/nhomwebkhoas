@@ -4,19 +4,94 @@ body{
     background-image:  
         linear-gradient(to right, #E9E9E5, #E9E9E5), 
         linear-gradient(to right, white, white), 
-        linear-gradient(to right, #F6F4F1, #F6F4F1),
-        linear-gradient(to right, white, white),
-        linear-gradient(to right, #E9E9E5, #E9E9E5) ;
+        linear-gradient(to right, #F6F4F1, #F6F4F1);
     background-position:
         0 0, 
-        0 1000px,
-        0 3100px,
-        0 4100px,
-        0 4670px;
+        0 1500px,
+        0 2370px;
     background-size:  
-        100% 1200px,
-        100% 1000px, 
-        100% 800px,
-        100% 200px, 
-        100% 700px;
-    }
+        100% 1555px,
+        100% 300px, 
+        100% 800px;
+}
+.image-one{
+    position: relative;
+    width: 100%;
+    padding-top: 30px;
+}
+.bold-text-one{
+    font-family: 'Playfair Display', serif;
+    font-size: 55px;
+    color:#212121;
+    text-align: center;
+    margin: 20px 0 40px 0;
+}
+.bold-text-two{
+    font-family: 'Quicksand', serif;
+    font-size: 30px;
+    color:#212121;
+    text-align: center;
+    font-weight: 600;
+    margin: 0 0 40px 0;
+}
+.box-text-one{
+    margin: 0 22%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: justify;
+    margin-bottom: 100px;
+}
+.big-group{
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: white;
+}
+.image-six{
+    position: relative;
+    width: 100%;
+}
+.group-collapse{
+    position: relative;
+    width: 100%;
+}
+.group-collapse-title {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+.active .group-collapse-title:hover {
+    cursor: url(http://ani.cursors-4u.net/cursors/cur-12/cur1080.cur), auto !important;
+}
+.group-collapse-title:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+.active:after {
+    content: "\2212";
+}
+.group-collapse-title:after{
+    background-color: #777;
+}
+.group-collapse-content{
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+}
+.group-collapse-content p{
+    margin: 10px;
+    text-align: justify;
+}
