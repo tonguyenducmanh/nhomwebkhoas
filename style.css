@@ -1,0 +1,151 @@
+/* toàn bộ định dạng trong này được áp dụng cho toàn bộ các trang */
+*{
+    cursor: url(http://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), auto !important;
+    /* thay đổi định dạng con trỏ chuột */
+    margin: 0; padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+/*cuộn mượt trang*/
+::selection {
+    background:#d3d3d3; 
+    color:#555;
+}
+  ::-moz-selection {
+    background:#d3d3d3; 
+    color:#555;
+}
+  ::-webkit-selection {
+    background:#d3d3d3; 
+    color:#555;
+}
+/* điều chỉnh màu cuộn chữ khi copy */
+a{
+    text-decoration: none;
+}
+a:hover{
+    cursor: url(http://ani.cursors-4u.net/cursors/cur-12/cur1080.cur), auto !important;
+    font-weight: 700;
+}
+#main{
+    position: relative;
+    z-index:12;
+    margin: 4%;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo a{
+    font-family: 'Special Elite', cursive;
+    font-size: 30px;
+    line-height: 30px;
+    color: #212121;
+    text-decoration: none;
+}
+.header-space{
+    text-align: center;
+    padding: 10px 0;
+}
+hr {
+    width:330px;
+    height:.3px; 
+    background: rgb(0, 0, 0) ;
+    font-weight: 400;
+    padding:0px;
+}
+.header-menu-list{
+    list-style-type: none;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.header-contact{
+    padding: 2px 0;
+}
+.header-menu-list a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    padding:8px; 
+}
+.header-contact-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.header-contact-list li{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    padding: 0 5px;
+}
+.header-contact-list a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+.header-contact-list li a i:hover{
+    cursor: url(http://ani.cursors-4u.net/cursors/cur-12/cur1080.cur), auto !important;
+}
+.footer-container{
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    justify-content: 70% 30%;
+    padding-top: 70px;
+}
+.footer-container-right img{
+    width: 400px;
+    margin-left: 200px;
+}
+.box-text-link{
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    position: fixed;
+    margin-top: 170px;
+    margin-left: -140px;
+    transform: rotate(-90deg);
+    font-weight: 700;
+    padding: 15px 80px;
+    background-color: #212121;
+    z-index: 12;
+}
+.box-text-link:hover{
+    cursor: url(http://ani.cursors-4u.net/cursors/cur-12/cur1080.cur), auto !important;
+}
+.box-text-link a{
+    color: white;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none;
+    outline: none;
+    background-color: #212121;
+    color: white;
+    cursor: pointer; 
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+  
+#myBtn:hover {
+    background-color: #555;
+    color:#ffffff
+}
+.straight-line{
+    border-left: 1.2px solid rgb(0, 0, 0);
+    margin: 0 50%;
+}

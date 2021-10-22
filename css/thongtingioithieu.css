@@ -1,0 +1,114 @@
+body{
+    background-repeat:no-repeat; /*dòng này bắt buộc phải có*/
+    /* các màu được xắp xếp theo thứ tự để tạo ra nền xen kẽ 2 màu*/
+    background-image:  
+        linear-gradient(to right, #E9E9E5, #E9E9E5), 
+        linear-gradient(to right, white, white), 
+        linear-gradient(to right, #F6F4F1, #F6F4F1);
+    background-position:
+        0 0, 
+        0 1000px,
+        0 3100px;
+    background-size:  
+        100% 1200px,
+        100% 1000px, 
+        100% 800px;
+    }
+.image-one{
+    position: relative;
+    width: 100%;
+    padding-top: 30px;
+}
+.bold-text-one{
+    font-family: 'Playfair Display', serif;
+    font-size: 55px;
+    color:#212121;
+    text-align: center;
+}
+.box-text-one{
+    padding: 0 250px;
+}
+.box-text-one-title{
+    font-family: 'Quicksand', cursive;
+    font-size: 25px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 800;
+}
+.box-text-one-content{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: justify;
+}
+.box-text-one-link{
+    display: block;
+    width: 250px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px ;
+    margin-top:80px;
+    margin-left: 380px;
+    background-color: #212121;
+    cursor: url(http://ani.cursors-4u.net/cursors/cur-12/cur1080.cur), auto !important;
+
+}
+.box-text-one-link a{
+    color: white;
+}
+.image-two{
+    position: relative;
+    width: 100%;
+    margin-top: -180px;
+}
+.text-rotate{
+    transform: rotate(90deg);
+    font-family: 'Special Elite', cursive;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    font-size: 22px;
+    text-align: center;
+    margin: 120px;
+    padding: 10px;
+}
+.box-image-one{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.box-image-one-left{
+    position: relative;
+    width: 25%;
+    height: 30%;
+    margin-top: 10px;
+    margin-left: 220px;
+}
+.box-video{
+    margin-top: -50px;
+    margin-right: 20px;
+}
+.box-link{
+    display: block;
+    width: 200px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px ;
+    margin-top:30px;
+    margin-left: 330px;
+    background-color: #212121;
+    cursor: url(http://ani.cursors-4u.net/cursors/cur-12/cur1080.cur), auto !important;
+}
+.box-link a{
+    color: white;
+}
+.straight-line-three{
+    border-left: 1.2px solid rgb(0, 0, 0);
+    margin: -80px 50%;
+}

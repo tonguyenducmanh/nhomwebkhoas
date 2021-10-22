@@ -1,0 +1,209 @@
+body{
+    background-repeat:no-repeat; /*dòng này bắt buộc phải có*/
+    /* các màu được xắp xếp theo thứ tự để tạo ra nền xen kẽ 2 màu*/
+    background-image:  
+        linear-gradient(to right, #E9E9E5, #E9E9E5), 
+        linear-gradient(to right, white, white), 
+        linear-gradient(to right, #F6F4F1, #F6F4F1),
+        linear-gradient(to right, white, white),
+        linear-gradient(to right, #E9E9E5, #E9E9E5) ;
+    background-position:
+        0 0, 
+        0 1000px,
+        0 3100px,
+        0 4100px,
+        0 4670px;
+    background-size:  
+        100% 2000px,
+        100% 1000px, 
+        100% 800px,
+        100% 200px, 
+        100% 700px;
+    }
+.image-one{
+    position: relative;
+    width: 100%;
+    padding-top: 30px;
+}
+.bold-text-one{
+    font-family: 'Playfair Display', serif;
+    font-size: 55px;
+    color:#212121;
+    text-align: center;
+}
+.box-text-one{
+    text-align: left;
+    width: 400px;
+    margin-left: 80px;
+    padding-top:80px;
+    padding-bottom: 140px;
+}
+.box-text-one-title{
+    font-family: 'Special Elite', cursive;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.box-text-one-content{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+}
+.box-text-one-link{
+    display: block;
+    width: 200px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px ;
+    margin-top:30px;
+    background-color: #212121;
+    cursor: url(http://ani.cursors-4u.net/cursors/cur-12/cur1080.cur), auto !important;
+
+}
+.box-text-one-link a{
+    color: white;
+}
+.three-colume-text{
+    font-family: 'Special Elite', cursive;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    font-size: 22px;
+    text-align: center;
+    margin: 120px;
+    padding: 10px;
+}
+.three-colume{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.image-two{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: url("../images/anh3.png") no-repeat;
+    margin-top: -150px;
+    margin-left: 65px;
+    transition: background 1.5s;
+}
+.image-two:hover{
+    background: url("../images/anh4.png") no-repeat;
+    cursor: url(http://ani.cursors-4u.net/cursors/cur-12/cur1080.cur), auto !important;
+
+}
+.image-three{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: url("../images/anh7.png") no-repeat;
+    transition: background 1.5s;
+}
+.image-three:hover{
+    background: url("../images/anh8.png") no-repeat;
+    cursor: url(http://ani.cursors-4u.net/cursors/cur-12/cur1080.cur), auto !important;
+}
+.image-four{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: url("../images/anh5.png") no-repeat;
+    transition: background 1.5s;
+    margin-top: -150px;
+    margin-right: 65px;
+}
+.image-four:hover{
+    background: url("../images/anh6.png") no-repeat;
+    cursor: url(http://ani.cursors-4u.net/cursors/cur-12/cur1080.cur), auto !important;
+}
+.image-link{
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: white;
+    opacity: 0;
+    font-size: 20px;
+    padding-top: 50%;
+    padding-left: 100px;
+    text-transform: uppercase;
+}
+.image-two:hover .image-link , .image-four:hover .image-link, .image-three:hover .image-link{
+    opacity: 1;
+}
+.image-five{
+    position: relative;
+    width:65%;
+    padding: 0 16%;
+}
+.container-text-two{
+    display: flex;
+    justify-content: space-between;
+}
+.bold-text-two{
+    font-family: 'Playfair Display', serif;
+    font-size: 55px;
+    color:#212121;
+}
+.box-text-two{
+    text-align: right;
+    width: 400px;
+    margin-right: 100px;
+    padding-top:20px;
+    padding-bottom: 140px;
+}
+.box-text-two-title{
+    font-family: 'Special Elite', cursive;
+    font-size: 18px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.box-text-two-content{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+}
+.box-text-two-link{
+    display: block;
+    width: 200px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px ;
+    margin-left: 165px;
+    margin-top:30px;
+    background-color: #212121;
+    cursor: url(http://ani.cursors-4u.net/cursors/cur-12/cur1080.cur), auto !important;
+
+}
+.box-text-two-link a{
+    color: white;
+}
+.straight-line-two{
+    border-left: 1.2px solid rgb(0, 0, 0);
+    margin: -23% 50% 10% 50%;
+}
+.three-colume-two{
+    display: flex;
+    justify-content: space-between;
+}
+.image-last{
+    width: 26%;
+    margin: -100px 35px 0 35px ;
+    height: 26%;
+}
+.three-colume-two-text{
+    font-family: 'Special Elite', cursive;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    font-size: 18px;
+    text-align: center;
+    margin: 120px;
+    margin-top:100px;
+    padding: 10px;
+}

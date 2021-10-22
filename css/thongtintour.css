@@ -1,0 +1,22 @@
+body{
+    background-repeat:no-repeat; /*dòng này bắt buộc phải có*/
+    /* các màu được xắp xếp theo thứ tự để tạo ra nền xen kẽ 2 màu*/
+    background-image:  
+        linear-gradient(to right, #E9E9E5, #E9E9E5), 
+        linear-gradient(to right, white, white), 
+        linear-gradient(to right, #F6F4F1, #F6F4F1),
+        linear-gradient(to right, white, white),
+        linear-gradient(to right, #E9E9E5, #E9E9E5) ;
+    background-position:
+        0 0, 
+        0 1000px,
+        0 3100px,
+        0 4100px,
+        0 4670px;
+    background-size:  
+        100% 1200px,
+        100% 1000px, 
+        100% 800px,
+        100% 200px, 
+        100% 700px;
+    }
