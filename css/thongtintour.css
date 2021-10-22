@@ -4,19 +4,153 @@ body{
     background-image:  
         linear-gradient(to right, #E9E9E5, #E9E9E5), 
         linear-gradient(to right, white, white), 
-        linear-gradient(to right, #F6F4F1, #F6F4F1),
-        linear-gradient(to right, white, white),
-        linear-gradient(to right, #E9E9E5, #E9E9E5) ;
+        linear-gradient(to right, #F6F4F1, #F6F4F1);
     background-position:
         0 0, 
         0 1000px,
-        0 3100px,
-        0 4100px,
-        0 4670px;
+        0 5640px;
     background-size:  
         100% 1200px,
         100% 1000px, 
-        100% 800px,
-        100% 200px, 
-        100% 700px;
-    }
+        100% 800px;
+}
+.image-one{
+    position: relative;
+    width: 100%;
+    padding-top: 30px;
+}
+.box-text-group{
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 10%;
+}
+.bold-text-one{
+    font-family: 'Playfair Display', serif;
+    font-size: 55px;
+    color:#212121;
+    margin-right: -100px;
+}
+.box-menu-text-one{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: -50px;
+}
+.box-menu-text-one a{
+    text-decoration: none;
+    color: #212121;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 600;
+}
+.box-menu-text-one a:hover{
+    font-weight: 500;
+}
+.straight-line-two{
+    border-left: 1.2px solid rgb(0, 0, 0);
+    margin: -5% 50% 00% 50%;
+}
+.day img{
+    position: relative;
+    width: 60%;
+    margin: 0 20%;
+}
+.table-text{
+    position: relative;
+    width: 60%;
+    margin: 0 20%;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.table-text-left{
+    border-right: 1.5px solid black;
+    padding: 20px;
+    padding-left: 0;
+}
+.table-text-left-title{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    line-height: 49px;
+    font-weight: 600;
+}
+.table-text-left-content{
+    font-family: 'Quicksand', sans-serif;
+    line-height: 29px;
+    text-align: justify;
+    font-size: 18px;
+}
+.table-text-right{
+    padding: 30px;
+    padding-top: 40px;
+}
+.table-text-right-title{
+    font-family: 'Special Elite', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+.table-text-right-content{
+    padding-top: 10px;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+
+}
+.big-group{
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: white;
+}
+.big-group-title{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 10px;
+}
+.group-collapse{
+    position: relative;
+    width: 100%;
+}
+.group-collapse-title {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: url(http://ani.cursors-4u.net/cursors/cur-12/cur1080.cur), auto !important;
+}
+.group-collapse-title:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+.active:after {
+    content: "\2212";
+}
+.group-collapse-title:after{
+    background-color: #777;
+}
+.group-collapse-content{
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+}
+.group-collapse-content p{
+    margin: 10px;
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+}
