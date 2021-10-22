@@ -71,8 +71,6 @@ body{
     outline: none;
     font-size: 17px;
     font-weight: 600;
-}
-.active .group-collapse-title:hover {
     cursor: url(http://ani.cursors-4u.net/cursors/cur-12/cur1080.cur), auto !important;
 }
 .group-collapse-title:after {
@@ -87,7 +85,6 @@ body{
 }
 .group-collapse-title:after{
     background-color: #777;
-    
 }
 .group-collapse-content{
     padding: 0 20px;
@@ -100,4 +97,27 @@ body{
     margin: 10px;
     text-align: justify;
     font-family: 'Quicksand', sans-serif;
+}
+.group-content-image-one{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.group-content-image-one img{
+    position: relative;
+    width: 165px;
+    height: 109px;
+    padding: 5px;
+    border-radius: 15px;
+}
+.group-content-image{
+    position: relative;
+    display: flex;
+}
+.group-content-image img{
+    position: relative;
+    width: 300px;
+    height: 169px;
+    padding: 5px;
+    border-radius: 15px;
 }
