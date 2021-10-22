@@ -57,6 +57,7 @@ body{
     width: 100%;
 }
 .group-collapse-title {
+    font-family: 'Quicksand', sans-serif;
     background-color: #777;
     color: white;
     cursor: pointer;
@@ -83,6 +84,7 @@ body{
 }
 .group-collapse-title:after{
     background-color: #777;
+    
 }
 .group-collapse-content{
     padding: 0 20px;
@@ -94,4 +96,5 @@ body{
 .group-collapse-content p{
     margin: 10px;
     text-align: justify;
+    font-family: 'Quicksand', sans-serif;
 }

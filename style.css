@@ -3,7 +3,6 @@
     cursor: url(http://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), auto !important;
     /* thay đổi định dạng con trỏ chuột */
     margin: 0; padding: 0;
-    font-family: 'Quicksand', sans-serif;
     /* riêng nhóm * này áp dụng cho mọi phần tử nếu không có áp dụng cá nhân */
 }
 html {
