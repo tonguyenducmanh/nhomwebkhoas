@@ -1,21 +1,62 @@
 *{
         font-family: 'Quicksand', sans-serif;
 }
-body{
-    background-repeat:no-repeat; /*dòng này bắt buộc phải có*/
-    /* các màu được xắp xếp theo thứ tự để tạo ra nền xen kẽ 2 màu*/
-    background-image:  
-        linear-gradient(to right, #E9E9E5, #E9E9E5), 
-        linear-gradient(to right, white, white), 
-        linear-gradient(to right, #F6F4F1, #F6F4F1);
-    background-position:
-        0 0, 
-        0 1500px,
-        0 2370px;
-    background-size:  
-        100% 1555px,
-        100% 300px, 
-        100% 800px;
+@media only screen and (max-width: 1280px) {
+    /* phần này được dùng để dịnh dạng cho màn hình có độ phân giải 720p HD */
+    body{
+        background-repeat:no-repeat; /*dòng này bắt buộc phải có*/
+        /* các màu được xắp xếp theo thứ tự để tạo ra nền xen kẽ 2 màu*/
+        background-image:  
+            linear-gradient(to right, #E9E9E5, #E9E9E5), 
+            linear-gradient(to right, white, white), 
+            linear-gradient(to right, #F6F4F1, #F6F4F1);
+        background-position:
+            0 0, 
+            0 1500px,
+            0 2370px;
+        background-size:  
+            100% 1555px,
+            100% 300px, 
+            100% 800px;
+    }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1790px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải nửa vầng trăng*/
+    body{
+        background-repeat:no-repeat; /*dòng này bắt buộc phải có*/
+        /* các màu được xắp xếp theo thứ tự để tạo ra nền xen kẽ 2 màu*/
+        background-image:  
+            linear-gradient(to right, #E9E9E5, #E9E9E5), 
+            linear-gradient(to right, white, white), 
+            linear-gradient(to right, #F6F4F1, #F6F4F1);
+        background-position:
+            0 0, 
+            0 1500px,
+            0 2570px;
+        background-size:  
+            100% 1665px,
+            100% 300px, 
+            100% 800px;
+    }
+}
+@media only screen and (min-width: 1790px) and (max-width: 1920px) {
+/*phần này được dùng để định dạng cho màn hình có độ phân giải 1080p full hd*/
+    body{
+        background-repeat:no-repeat; /*dòng này bắt buộc phải có*/
+        /* các màu được xắp xếp theo thứ tự để tạo ra nền xen kẽ 2 màu*/
+        background-image:  
+            linear-gradient(to right, #E9E9E5, #E9E9E5), 
+            linear-gradient(to right, white, white), 
+            linear-gradient(to right, #F6F4F1, #F6F4F1);
+        background-position:
+            0 0, 
+            0 1500px,
+            0 2880px;
+        background-size:  
+            100% 1849px,
+            100% 300px, 
+            100% 800px;
+    }
 }
 .image-one{
     position: relative;

@@ -1,3 +1,55 @@
+@media only screen and (max-width: 1280px) {
+    /* phần này được dùng để dịnh dạng cho màn hình có độ phân giải 720p HD */
+    body{
+        background-repeat:no-repeat; /*dòng này bắt buộc phải có*/
+        /* các màu được xắp xếp theo thứ tự để tạo ra nền xen kẽ 2 màu*/
+        background-image:  
+            linear-gradient(to right, #E9E9E5, #E9E9E5), 
+            linear-gradient(to right, white, white), 
+            linear-gradient(to right, #F6F4F1, #F6F4F1),
+            linear-gradient(to right, white, white),
+            linear-gradient(to right, #E9E9E5, #E9E9E5) ;
+        background-position:
+            0 0, 
+            0 1000px,
+            0 3100px,
+            0 4100px,
+            0 4670px;
+        background-size:  
+            100% 2000px,
+            100% 1000px, 
+            100% 800px,
+            100% 200px, 
+            100% 700px;
+    }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1790px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải nửa vầng trăng*/
+    body{
+        background-repeat:no-repeat; /*dòng này bắt buộc phải có*/
+        /* các màu được xắp xếp theo thứ tự để tạo ra nền xen kẽ 2 màu*/
+        background-image:  
+            linear-gradient(to right, #E9E9E5, #E9E9E5), 
+            linear-gradient(to right, white, white), 
+            linear-gradient(to right, #F6F4F1, #F6F4F1),
+            linear-gradient(to right, white, white),
+            linear-gradient(to right, #E9E9E5, #E9E9E5) ;
+        background-position:
+            0 0, 
+            0 1000px,
+            0 3400px,
+            0 4800px,
+            0 5070px;
+        background-size:  
+            100% 2200px,
+            100% 1000px, 
+            100% 800px,
+            100% 200px, 
+            100% 700px;
+    }
+}
+@media only screen and (min-width: 1790px) and (max-width: 1920px) {
+/*phần này được dùng để định dạng cho màn hình có độ phân giải 1080p full hd*/
 body{
     background-repeat:no-repeat; /*dòng này bắt buộc phải có*/
     /* các màu được xắp xếp theo thứ tự để tạo ra nền xen kẽ 2 màu*/
@@ -10,16 +62,17 @@ body{
     background-position:
         0 0, 
         0 1000px,
-        0 3100px,
+        0 3800px,
         0 4100px,
-        0 4670px;
+        0 5570px;
     background-size:  
-        100% 2000px,
+        100% 2600px,
         100% 1000px, 
         100% 800px,
         100% 200px, 
         100% 700px;
     }
+}
 .image-one{
     position: relative;
     width: 100%;
@@ -198,13 +251,46 @@ body{
     margin: -100px 35px 0 35px ;
     height: 26%;
 }
-.three-column-two-text{
-    font-family: 'Special Elite', cursive;
-    text-transform: uppercase;
-    transform: rotate(90deg);
-    font-size: 18px;
-    text-align: center;
-    margin: 120px;
-    margin-top:100px;
-    padding: 10px;
+@media only screen and (max-width: 1280px) {
+    /* phần này được dùng để dịnh dạng cho màn hình có độ phân giải 720p HD */
+    .three-column-two-text{
+        font-family: 'Special Elite', cursive;
+        text-transform: uppercase;
+        transform: rotate(90deg);
+        font-size: 18px;
+        text-align: center;
+        margin: 120px;
+        margin-top:100px;
+        padding: 10px;
+    }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1790px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải nửa vầng trăng*/
+    .three-column-two-text{
+        font-family: 'Special Elite', cursive;
+        text-transform: uppercase;
+        transform: rotate(90deg);
+        font-size: 18px;
+        text-align: center;
+        margin: 120px;
+        margin-top:100px;
+        margin-left: 650px;
+        padding: 10px;
+        width: 100px;
+    }
+}
+@media only screen and (min-width: 1790px) and (max-width: 1920px) {
+/*phần này được dùng để định dạng cho màn hình có độ phân giải 1080p full hd*/
+    .three-column-two-text{
+        font-family: 'Special Elite', cursive;
+        text-transform: uppercase;
+        transform: rotate(90deg);
+        font-size: 18px;
+        text-align: center;
+        margin: 120px;
+        margin-top:100px;
+        margin-left:830px;
+        padding: 10px;
+        width: 100px;
+    }
 }
