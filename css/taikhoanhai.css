@@ -8,7 +8,7 @@ body{
     background-position:
         0 0, 
         0 1000px,
-        0 2400px;
+        0 2200px;
     background-size:  
         100% 1600px,
         100% 200px, 
@@ -84,7 +84,8 @@ body{
     line-height: 32px;
 }
 .text-box-signin{
-    margin-top: 210px;
+    margin-top: 40px;
+    margin-left: 120px;
     font-family: 'Quicksand', sans-serif;
 }
 .text-box-signin a{
