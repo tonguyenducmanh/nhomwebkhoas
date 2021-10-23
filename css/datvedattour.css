@@ -10,13 +10,135 @@ body{
     background-position:
         0 0, 
         0 1000px,
-        0 3100px,
+        0 2240px,
         0 4100px,
         0 4670px;
     background-size:  
-        100% 1200px,
+        100% 1550px,
         100% 1000px, 
         100% 800px,
         100% 200px, 
         100% 700px;
-    }
+}
+.image-one{
+    position: relative;
+    width: 100%;
+    padding-top: 30px;
+}
+.bold-text-one{
+    font-family: 'Playfair Display', serif;
+    font-size: 55px;
+    color:#212121;
+    text-align: center;
+}
+.box-text-one{
+    margin-left: 52%;
+    margin-right: 15%;
+}
+.box-text-one-title{
+    font-family: 'Special Elite', cursive;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.box-text-one-content{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: justify;
+}
+.straight-line-two{
+    border-left: 1.2px solid rgb(0, 0, 0);
+    margin: -22% 50% 10% 50%;
+}
+.three-column{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    margin-top: -105px;
+    margin-bottom: 100px;
+}
+.image-last{
+    position: relative;
+    display: block;
+    width: 70%;
+    height: 90%;
+    margin-left: 15%;
+}
+.image-last:hover{
+    cursor: url(http://ani.cursors-4u.net/cursors/cur-12/cur1080.cur), auto !important;
+
+}
+.column-group-text-one{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+.column-group-text-two{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    color: #3f3f3f;
+
+}
+.big-group{
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color:none;
+}
+.big-group-title{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 10px;
+}
+.group-collapse{
+    position: relative;
+    width: 100%;
+}
+.group-collapse-title {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: url(http://ani.cursors-4u.net/cursors/cur-12/cur1080.cur), auto !important;
+}
+.group-collapse-title:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+.active:after {
+    content: "\2212";
+}
+.group-collapse-title:after{
+    background-color: #777;
+}
+.group-collapse-content{
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+}
+.group-collapse-content p{
+    margin: 10px;
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+}

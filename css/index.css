@@ -66,7 +66,7 @@ body{
 .box-text-one-link a{
     color: white;
 }
-.three-colume-text{
+.three-column-text{
     font-family: 'Special Elite', cursive;
     text-transform: uppercase;
     transform: rotate(90deg);
@@ -75,7 +75,7 @@ body{
     margin: 120px;
     padding: 10px;
 }
-.three-colume{
+.three-column{
     position: relative;
     width: 100%;
     height: 100%;
@@ -189,7 +189,7 @@ body{
     border-left: 1.2px solid rgb(0, 0, 0);
     margin: -23% 50% 10% 50%;
 }
-.three-colume-two{
+.three-column-two{
     display: flex;
     justify-content: space-between;
 }
@@ -198,7 +198,7 @@ body{
     margin: -100px 35px 0 35px ;
     height: 26%;
 }
-.three-colume-two-text{
+.three-column-two-text{
     font-family: 'Special Elite', cursive;
     text-transform: uppercase;
     transform: rotate(90deg);
