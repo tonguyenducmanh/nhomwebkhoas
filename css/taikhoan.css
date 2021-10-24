@@ -10,9 +10,9 @@
         background-position:
             0 0, 
             0 1000px,
-            0 2400px;
+            0 1650px;
         background-size:  
-            100% 1600px,
+            100% 900px,
             100% 200px, 
             100% 800px;
     }
@@ -29,9 +29,9 @@
         background-position:
             0 0, 
             0 1000px,
-            0 2650px;
+            0 1750px;
         background-size:  
-            100% 1800px,
+            100% 900px,
             100% 200px, 
             100% 800px;
     }
@@ -48,9 +48,9 @@ body{
     background-position:
         0 0, 
         0 1000px,
-        0 2950px;
+        0 1850px;
     background-size:  
-        100% 1990px,
+        100% 890px,
         100% 200px, 
         100% 800px;
 }
