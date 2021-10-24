@@ -1,0 +1,199 @@
+@media only screen and (max-width: 1280px) {
+    /* phần này được dùng để dịnh dạng cho màn hình có độ phân giải 720p HD */
+    body{
+        background-repeat:no-repeat; /*dòng này bắt buộc phải có*/
+        /* các màu được xắp xếp theo thứ tự để tạo ra nền xen kẽ 2 màu*/
+        background-image:  
+            linear-gradient(to right, #E9E9E5, #E9E9E5), 
+            linear-gradient(to right, white, white), 
+            linear-gradient(to right, #E9E9E5, #E9E9E5);
+        background-position:
+            0 0, 
+            0 1000px,
+            0 1420px;
+        background-size:  
+            100% 660px,
+            100% 200px, 
+            100% 800px;
+    }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1790px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải nửa vầng trăng*/
+    body{
+        background-repeat:no-repeat; /*dòng này bắt buộc phải có*/
+        /* các màu được xắp xếp theo thứ tự để tạo ra nền xen kẽ 2 màu*/
+        background-image:  
+            linear-gradient(to right, #E9E9E5, #E9E9E5), 
+            linear-gradient(to right, white, white), 
+            linear-gradient(to right, #E9E9E5, #E9E9E5);
+        background-position:
+            0 0, 
+            0 1000px,
+            0 1520px;
+        background-size:  
+            100% 680px,
+            100% 200px, 
+            100% 800px;
+    }
+}
+@media only screen and (min-width: 1790px) and (max-width: 1920px) {
+/*phần này được dùng để định dạng cho màn hình có độ phân giải 1080p full hd*/
+    body{
+        background-repeat:no-repeat; /*dòng này bắt buộc phải có*/
+        /* các màu được xắp xếp theo thứ tự để tạo ra nền xen kẽ 2 màu*/
+        background-image:  
+            linear-gradient(to right, #E9E9E5, #E9E9E5), 
+            linear-gradient(to right, white, white), 
+            linear-gradient(to right, #E9E9E5, #E9E9E5);
+        background-position:
+            0 0, 
+            0 1000px,
+            0 1650px;
+        background-size:  
+            100% 680px,
+            100% 200px, 
+            100% 800px;
+    }
+}
+.image-one{
+    position: relative;
+    width: 100%;
+    padding-top: 30px;
+}
+.bold-text-one{
+    font-family: 'Playfair Display', serif;
+    font-size: 55px;
+    color:#212121;
+    text-align: center;
+}
+.straight-line-two{
+    border-left: 1.2px solid rgb(0, 0, 0);
+    margin: -23% 50% 10% 50%;
+}
+.text-container{
+    display: flex;
+    justify-content: space-around;
+    margin-left:10% ;
+    margin-right:10% ;
+}
+.text-form{
+    display: flex;
+    flex-direction: column;
+}
+.text-form input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin: 10px;
+    width: 400px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.text-form input:focus{
+    outline: none;
+}
+.send-info{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #212121;
+    color: white;
+    outline: none;
+    border: 0;
+    width: 240px;
+    padding: 15px 60px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 170px;
+    margin-top: 80px;
+    cursor: url(http://ani.cursors-4u.net/cursors/cur-12/cur1080.cur), auto !important;
+}
+.send-info a{
+    text-decoration: none;
+    color: white;
+}
+.text-box{
+    width: 400px;
+    margin: 10px;
+}
+.text-box-title{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.text-box-content{
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 32px;
+}
+.text-box-signin{
+    margin-top: 40px;
+    margin-left: 120px;
+    font-family: 'Quicksand', sans-serif;
+}
+.text-box-signin a{
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    font-weight: 600;
+}
+.straight-line-two{
+    border-left: 1.2px solid rgb(0, 0, 0);
+    margin: -4.5% 50% 10% 50%;
+}
+.three-column-two{
+    display: flex;
+    justify-content: space-between;
+}
+.image-last{
+    width: 26%;
+    margin: -100px 35px 0 35px ;
+    height: 26%;
+}
+@media only screen and (max-width: 1280px) {
+    /* phần này được dùng để dịnh dạng cho màn hình có độ phân giải 720p HD */
+    .three-column-two-text{
+        font-family: 'Special Elite', cursive;
+        text-transform: uppercase;
+        transform: rotate(90deg);
+        font-size: 18px;
+        text-align: center;
+        margin: 120px;
+        margin-top:100px;
+        padding: 10px;
+    }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1790px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải nửa vầng trăng*/
+    .three-column-two-text{
+        font-family: 'Special Elite', cursive;
+        text-transform: uppercase;
+        transform: rotate(90deg);
+        font-size: 18px;
+        text-align: center;
+        margin: 120px;
+        margin-top:100px;
+        margin-left: 640px;
+        padding: 10px;
+        width: 100px;
+    }
+}
+@media only screen and (min-width: 1790px) and (max-width: 1920px) {
+/*phần này được dùng để định dạng cho màn hình có độ phân giải 1080p full hd*/
+    .three-column-two-text{
+        font-family: 'Special Elite', cursive;
+        text-transform: uppercase;
+        transform: rotate(90deg);
+        font-size: 18px;
+        text-align: center;
+        margin: 120px;
+        margin-top:100px;
+        margin-left: 820px;
+        padding: 10px;
+        width: 100px;
+    }
+}
+

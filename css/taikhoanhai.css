@@ -108,6 +108,10 @@
     margin-top: 80px;
     cursor: url(http://ani.cursors-4u.net/cursors/cur-12/cur1080.cur), auto !important;
 }
+.send-info a{
+    text-decoration: none;
+    color: white;
+}
 .text-box{
     width: 400px;
     margin: 10px;

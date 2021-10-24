@@ -10,9 +10,9 @@
         background-position:
             0 0, 
             0 1000px,
-            0 1650px;
+            0 1690px;
         background-size:  
-            100% 900px,
+            100% 950px,
             100% 200px, 
             100% 800px;
     }
@@ -29,9 +29,9 @@
         background-position:
             0 0, 
             0 1000px,
-            0 1750px;
+            0 1790px;
         background-size:  
-            100% 900px,
+            100% 950px,
             100% 200px, 
             100% 800px;
     }
@@ -48,9 +48,9 @@ body{
     background-position:
         0 0, 
         0 1000px,
-        0 1850px;
+        0 1900px;
     background-size:  
-        100% 890px,
+        100% 960px,
         100% 200px, 
         100% 800px;
 }
@@ -108,6 +108,10 @@ body{
     margin-top: 80px;
     cursor: url(http://ani.cursors-4u.net/cursors/cur-12/cur1080.cur), auto !important;
 }
+.send-info a{
+    text-decoration: none;
+    color:white;
+}
 .text-box{
     width: 400px;
     margin: 10px;
@@ -124,10 +128,28 @@ body{
     font-size: 18px;
     line-height: 32px;
 }
-.text-box-signin{
-    margin-top: 210px;
-    font-family: 'Quicksand', sans-serif;
+@media only screen and (max-width: 1280px) {
+    /* phần này được dùng để dịnh dạng cho màn hình có độ phân giải 720p HD */
+    .text-box-signin{
+        margin-top: 270px;
+        font-family: 'Quicksand', sans-serif;
+    }
 }
+@media only screen and (min-width: 1281px) and (max-width: 1790px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải nửa vầng trăng*/
+    .text-box-signin{
+        margin-top: 280px;
+        font-family: 'Quicksand', sans-serif;
+    }
+}
+@media only screen and (min-width: 1790px) and (max-width: 1920px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải 1080p full hd*/
+    .text-box-signin{
+        margin-top: 280px;
+        font-family: 'Quicksand', sans-serif;
+    } 
+}
+
 .text-box-signin a{
     font-family: 'Quicksand', sans-serif;
     text-decoration: none;
