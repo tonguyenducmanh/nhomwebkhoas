@@ -10,9 +10,9 @@
         background-position:
             0 0, 
             0 1000px,
-            0 1420px;
+            0 1680px;
         background-size:  
-            100% 660px,
+            100% 860px,
             100% 200px, 
             100% 800px;
     }
@@ -29,9 +29,9 @@
         background-position:
             0 0, 
             0 1000px,
-            0 1520px;
+            0 1820px;
         background-size:  
-            100% 680px,
+            100% 980px,
             100% 200px, 
             100% 800px;
     }
@@ -48,9 +48,9 @@
         background-position:
             0 0, 
             0 1000px,
-            0 1650px;
+            0 1950px;
         background-size:  
-            100% 680px,
+            100% 980px,
             100% 200px, 
             100% 800px;
     }
@@ -80,19 +80,78 @@
     display: flex;
     flex-direction: column;
 }
-.text-form input{
-    background-color: transparent;
-    border: 0;
-    border-bottom: 1px solid black;
-    padding-bottom: 10px;
-    margin: 10px;
-    width: 400px;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
+@media only screen and (max-width: 1280px) {
+    /* phần này được dùng để dịnh dạng cho màn hình có độ phân giải 720p HD */
+    .text-form{
+        margin-top: 10px;
+    }
+    .text-box-info{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        color: rgb(88, 88, 88);
+        margin-top: -4px;
+    }
+    .text-box-info-title{
+        border-bottom: 2px solid #535353;
+        padding: 17px;
+
+    } 
+    .text-box-info-content{
+        border-bottom: 2px solid #535353;
+        padding: 17px;
+
+    }
 }
-.text-form input:focus{
-    outline: none;
+@media only screen and (min-width: 1281px) and (max-width: 1790px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải nửa vầng trăng*/
+    .text-form{
+        margin-top: 10px;
+    }
+    .text-box-info{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        color: rgb(88, 88, 88);
+        margin-top: -4px;
+    }
+    .text-box-info-title{
+        border-bottom: 2px solid #535353;
+        padding: 17px;
+
+    } 
+    .text-box-info-content{
+        border-bottom: 2px solid #535353;
+        padding: 17px;
+
+    }
+}
+@media only screen and (min-width: 1790px) and (max-width: 1920px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải 1080p full hd*/
+    .thongtincanhan{
+        padding-left: 115px;
+        margin-top: 15px;
+    }
+    .text-box-info{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        color: rgb(88, 88, 88);
+        margin-top: -4px;
+    }
+    .text-box-info-title{
+        border-bottom: 2px solid #535353;
+        padding: 17px;
+
+    } 
+    .text-box-info-content{
+        border-bottom: 2px solid #535353;
+        padding: 17px;
+
+    }    
 }
 .send-info{
     font-family: 'Quicksand', sans-serif;
@@ -111,17 +170,77 @@
 .send-info a{
     text-decoration: none;
     color: white;
+    background-color: #212121;
 }
 .text-box{
     width: 400px;
     margin: 10px;
 }
-.text-box-title{
-    font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
+@media only screen and (max-width: 1280px) {
+    /* phần này được dùng để dịnh dạng cho màn hình có độ phân giải 720p HD */
+    .text-box-title{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+    .text-box-content-table{
+        border-collapse: collapse;
+    }
+    .text-box-content-table-title {
     font-weight: 600;
-    margin-bottom: 20px;
+    }
+    .text-box-content-table td{
+        color: rgb(88, 88, 88);
+        padding: 10px;
+        border-bottom: 2px solid #535353;
+    }
 }
+@media only screen and (min-width: 1281px) and (max-width: 1790px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải nửa vầng trăng*/
+    .text-box-title{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+    .text-box-content-table{
+        border-collapse: collapse;
+    }
+    .text-box-content-table-title {
+    font-weight: 600;
+    }
+    .text-box-content-table td{
+        color: rgb(88, 88, 88);
+        padding: 10px;
+        border-bottom: 2px solid #535353;
+    }
+}
+@media only screen and (min-width: 1790px) and (max-width: 1920px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải 1080p full hd*/
+    .text-box-title{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        margin-left: -100px;
+    }
+    .text-box-content-table{
+        border-collapse: collapse;
+        margin-left: -110px;
+    }
+    .text-box-content-table-title {
+    font-weight: 600;
+    }
+    .text-box-content-table td{
+        color: rgb(88, 88, 88);
+        padding: 10px;
+        border-bottom: 2px solid #535353;
+    }     
+}
+
 .text-box-content{
     font-family: 'Quicksand', sans-serif;
     text-align: justify;
@@ -196,4 +315,3 @@
         width: 100px;
     }
 }
-
