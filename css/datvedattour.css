@@ -100,9 +100,26 @@
     line-height: 32px;
     text-align: justify;
 }
-.straight-line-two{
-    border-left: 1.2px solid rgb(0, 0, 0);
-    margin: -22% 50% 10% 50%;
+@media only screen and (max-width: 1280px) {
+    /* phần này được dùng để dịnh dạng cho màn hình có độ phân giải 720p HD */
+    .straight-line-two{
+        border-left: 1.2px solid rgb(0, 0, 0);
+        margin: -22% 50% 10% 50%;
+    }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1790px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải nửa vầng trăng*/
+    .straight-line-two{
+        border-left: 1.2px solid rgb(0, 0, 0);
+        margin: -16% 50% 5% 50%;
+    }
+}
+@media only screen and (min-width: 1790px) and (max-width: 1920px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải 1080p full hd*/
+    .straight-line-two{
+        border-left: 1.2px solid rgb(0, 0, 0);
+        margin: -12% 50% 0% 50%;
+    } 
 }
 .three-column{
     position: relative;

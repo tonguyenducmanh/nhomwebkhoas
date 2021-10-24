@@ -39,7 +39,7 @@
             0 1000px,
             0 3400px,
             0 4800px,
-            0 5070px;
+            0 5170px;
         background-size:  
             100% 2200px,
             100% 1000px, 
@@ -64,11 +64,11 @@ body{
         0 1000px,
         0 3800px,
         0 4100px,
-        0 5570px;
+        0 5670px;
     background-size:  
         100% 2600px,
         100% 1000px, 
-        100% 800px,
+        100% 900px,
         100% 200px, 
         100% 700px;
     }
@@ -135,40 +135,120 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.image-two{
-    position: relative;
-    width: 300px;
-    height: 400px;
-    background: url("../images/anh3.png") no-repeat;
-    margin-top: -150px;
-    margin-left: 65px;
-    transition: background 1.5s;
+@media only screen and (max-width: 1280px) {
+    /* phần này được dùng để dịnh dạng cho màn hình có độ phân giải 720p HD */
+    .image-two{
+        position: relative;
+        width: 300px;
+        height: 400px;
+        background: url("../images/anh3.png") no-repeat;
+        margin-top: -150px;
+        margin-left: 75px;
+        transition: background 1.5s;
+    }
 }
+@media only screen and (min-width: 1281px) and (max-width: 1790px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải nửa vầng trăng*/
+    .image-two{
+        position: relative;
+        width: 300px;
+        height: 400px;
+        background: url("../images/anh3.png") no-repeat;
+        margin-top: -150px;
+        margin-left: 80px;
+        transition: background 1.5s;
+    }
+}
+@media only screen and (min-width: 1790px) and (max-width: 1920px) {
+/*phần này được dùng để định dạng cho màn hình có độ phân giải 1080p full hd*/
+    .image-two{
+        position: relative;
+        width: 400px;
+        height: 500px;
+        background: url("../images/anh3.png") no-repeat;
+        margin-top: -150px;
+        margin-left: 105px;
+        transition: background 1.5s;
+    }
+}
+
 .image-two:hover{
     background: url("../images/anh4.png") no-repeat;
     cursor: url(http://ani.cursors-4u.net/cursors/cur-12/cur1080.cur), auto !important;
 
 }
-.image-three{
-    position: relative;
-    width: 300px;
-    height: 300px;
-    background: url("../images/anh7.png") no-repeat;
-    transition: background 1.5s;
+@media only screen and (max-width: 1280px) {
+    /* phần này được dùng để dịnh dạng cho màn hình có độ phân giải 720p HD */
+    .image-three{
+        position: relative;
+        width: 300px;
+        height: 300px;
+        background: url("../images/anh7.png") no-repeat;
+        transition: background 1.5s;
+    }
 }
+@media only screen and (min-width: 1281px) and (max-width: 1790px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải nửa vầng trăng*/
+    .image-three{
+        position: relative;
+        width: 400px;
+        height: 400px;
+        background: url("../images/anh7.png") no-repeat;
+        transition: background 1.5s;
+    }
+}
+@media only screen and (min-width: 1790px) and (max-width: 1920px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải 1080p full hd*/
+    .image-three{
+        position: relative;
+        width: 400px;
+        height: 400px;
+        background: url("../images/anh7.png") no-repeat;
+        transition: background 1.5s;
+    } 
+}
+
 .image-three:hover{
     background: url("../images/anh8.png") no-repeat;
     cursor: url(http://ani.cursors-4u.net/cursors/cur-12/cur1080.cur), auto !important;
 }
+@media only screen and (max-width: 1280px) {
+    /* phần này được dùng để dịnh dạng cho màn hình có độ phân giải 720p HD */
+    .image-four{
+        position: relative;
+        width: 300px;
+        height: 400px;
+        background: url("../images/anh5.png") no-repeat;
+        transition: background 1.5s;
+        margin-top: -150px;
+        margin-right: 75px;
+    }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1790px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải nửa vầng trăng*/
+    .image-four{
+        position: relative;
+        width: 300px;
+        height: 400px;
+        background: url("../images/anh5.png") no-repeat;
+        transition: background 1.5s;
+        margin-top: -150px;
+        margin-right: 65px;
+    }
+}
+@media only screen and (min-width: 1790px) and (max-width: 1920px) {
+/*phần này được dùng để định dạng cho màn hình có độ phân giải 1080p full hd*/
 .image-four{
     position: relative;
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
     background: url("../images/anh5.png") no-repeat;
     transition: background 1.5s;
     margin-top: -150px;
-    margin-right: 65px;
+    margin-right: 105px;
 }
+}
+
 .image-four:hover{
     background: url("../images/anh6.png") no-repeat;
     cursor: url(http://ani.cursors-4u.net/cursors/cur-12/cur1080.cur), auto !important;
@@ -181,9 +261,43 @@ body{
     color: white;
     opacity: 0;
     font-size: 20px;
-    padding-top: 50%;
-    padding-left: 100px;
     text-transform: uppercase;
+}
+@media only screen and (max-width: 1280px) {
+    /* phần này được dùng để dịnh dạng cho màn hình có độ phân giải 720p HD */
+    .image-link{
+        padding-left: 106px;
+        padding-top: 200px;
+    } 
+    .image-three a{
+        padding-left: 100px;
+        padding-top: 140px;
+    }  
+
+}
+@media only screen and (min-width: 1281px) and (max-width: 1790px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải nửa vầng trăng*/
+    .image-link{
+        padding-left: 100px;
+        padding-top: 200px;
+    }  
+    .image-three a{
+        padding-left: 150px;
+        padding-top: 200px;
+    }  
+}
+@media only screen and (min-width: 1790px) and (max-width: 1920px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải 1080p full hd*/
+      .image-link{
+          padding-left: 150px;
+          padding-top: 190px;
+      }  
+      .image-two a{
+        padding-top: 240px;
+    } 
+    .image-four a{
+        padding-top: 240px;
+    } 
 }
 .image-two:hover .image-link , .image-four:hover .image-link, .image-three:hover .image-link{
     opacity: 1;
@@ -197,17 +311,63 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.bold-text-two{
-    font-family: 'Playfair Display', serif;
-    font-size: 55px;
-    color:#212121;
+@media only screen and (max-width: 1280px) {
+    /* phần này được dùng để dịnh dạng cho màn hình có độ phân giải 720p HD */
+    .bold-text-two{
+        font-family: 'Playfair Display', serif;
+        font-size: 55px;
+        color:#212121;
+    }
 }
-.box-text-two{
-    text-align: right;
-    width: 400px;
-    margin-right: 100px;
-    padding-top:20px;
-    padding-bottom: 140px;
+@media only screen and (min-width: 1281px) and (max-width: 1790px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải nửa vầng trăng*/
+    .bold-text-two{
+        font-family: 'Playfair Display', serif;
+        font-size: 55px;
+        color:#212121;
+        margin-left: 120px;
+    }
+}
+@media only screen and (min-width: 1790px) and (max-width: 1920px) {
+/*phần này được dùng để định dạng cho màn hình có độ phân giải 1080p full hd*/
+    .bold-text-two{
+        font-family: 'Playfair Display', serif;
+        font-size: 55px;
+        color:#212121;
+        margin-left: 300px;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    /* phần này được dùng để dịnh dạng cho màn hình có độ phân giải 720p HD */
+    .box-text-two{
+        text-align: right;
+        width: 400px;
+        margin-right: 100px;
+        padding-top:20px;
+        padding-bottom: 140px;
+    }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1790px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải nửa vầng trăng*/
+    .box-text-two{
+        text-align: right;
+        width: 400px;
+        margin-right: 100px;
+        padding-top:20px;
+        padding-bottom: 140px;
+        margin-right: 200px;
+    }
+}
+@media only screen and (min-width: 1790px) and (max-width: 1920px) {
+/*phần này được dùng để định dạng cho màn hình có độ phân giải 1080p full hd*/
+    .box-text-two{
+        text-align: right;
+        width: 400px;
+        margin-right: 100px;
+        padding-top:20px;
+        padding-bottom: 140px;
+        margin-right: 350px;
+    }
 }
 .box-text-two-title{
     font-family: 'Special Elite', cursive;
@@ -238,10 +398,28 @@ body{
 .box-text-two-link a{
     color: white;
 }
-.straight-line-two{
-    border-left: 1.2px solid rgb(0, 0, 0);
-    margin: -23% 50% 10% 50%;
+@media only screen and (max-width: 1280px) {
+    /* phần này được dùng để dịnh dạng cho màn hình có độ phân giải 720p HD */
+    .straight-line-two{
+        border-left: 1.2px solid rgb(0, 0, 0);
+        margin: -23% 50% 10% 50%;
+    }
 }
+@media only screen and (min-width: 1281px) and (max-width: 1790px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải nửa vầng trăng*/
+    .straight-line-two{
+        border-left: 1.2px solid rgb(0, 0, 0);
+        margin: -19% 50% 5% 50%;
+    }
+}
+@media only screen and (min-width: 1790px) and (max-width: 1920px) {
+/*phần này được dùng để định dạng cho màn hình có độ phân giải 1080p full hd*/
+    .straight-line-two{
+        border-left: 1.2px solid rgb(0, 0, 0);
+        margin: -15% 50% 0% 50%;
+    }
+}
+
 .three-column-two{
     display: flex;
     justify-content: space-between;

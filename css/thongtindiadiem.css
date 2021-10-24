@@ -32,7 +32,7 @@
         background-position:
             0 0, 
             0 1500px,
-            0 2570px;
+            0 2470px;
         background-size:  
             100% 1665px,
             100% 300px, 
@@ -51,7 +51,7 @@
         background-position:
             0 0, 
             0 1500px,
-            0 2880px;
+            0 2640px;
         background-size:  
             100% 1849px,
             100% 300px, 
@@ -86,19 +86,80 @@
     text-align: justify;
     margin-bottom: 100px;
 }
-.big-group{
-    position: relative;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background-color: white;
+@media only screen and (max-width: 1280px) {
+    /* phần này được dùng để dịnh dạng cho màn hình có độ phân giải 720p HD */
+    .big-group{
+        position: relative;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        background-color: white;
+    }
 }
-.image-six{
-    position: relative;
-    width: 100%;
+@media only screen and (min-width: 1281px) and (max-width: 1790px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải nửa vầng trăng*/
+    .big-group{
+        position: relative;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: white;
+    }
 }
-.group-collapse{
-    position: relative;
-    width: 100%;
+@media only screen and (min-width: 1790px) and (max-width: 1920px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải 1080p full hd*/
+    .big-group{
+        position: relative;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        background-color: white;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    /* phần này được dùng để dịnh dạng cho màn hình có độ phân giải 720p HD */
+    .image-six{
+        position: relative;
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1790px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải nửa vầng trăng*/
+    .image-six{
+        position: relative;
+        width: 91.5%;
+        margin-left: 53px;
+    }
+}
+@media only screen and (min-width: 1790px) and (max-width: 1920px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải 1080p full hd*/
+    .image-six{
+        position: relative;
+        width: 100%;
+        width: 66%;
+        margin-left: 298px;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    /* phần này được dùng để dịnh dạng cho màn hình có độ phân giải 720p HD */
+    .group-collapse{
+        position: relative;
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1790px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải nửa vầng trăng*/
+    .group-collapse{
+        position: relative;
+        width: 90%;
+    }
+}
+@media only screen and (min-width: 1790px) and (max-width: 1920px) {
+    /*phần này được dùng để định dạng cho màn hình có độ phân giải 1080p full hd*/
+    .group-collapse{
+        position: relative;
+        width: 70%;
+    }
 }
 .group-collapse-title {
     font-family: 'Quicksand', sans-serif;
