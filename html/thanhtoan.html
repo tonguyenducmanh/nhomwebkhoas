@@ -77,12 +77,32 @@
             </div>
             <br>
             <div class="text-container">
-                <form method="get" class="text-form" action="thongtincanhan.html">
-                    <input type="text" class="sothe" placeholder="Số thẻ">
-                    <input type="text" class="tenintrenthe" placeholder="Tên in trên thẻ">
-                    <input type="text" class="ngayhethan" placeholder="Ngày hết hạn">
-                    <input type="text" class="mabaomat" placeholder="Mã bảo mật">
-                    <button class="send-info">
+                <form id="purchase" class="text-form" method="get" class="form" action="thongtincanhan.html">
+                    <div class="form-field">
+                        <label for="tenthe"></label>
+                        <input type="text" name="tenthe" id="tenthe" autocomplete="off" placeholder="Họ và tên"><br>
+                        <small></small>
+                    </div>
+        
+                    <div class="form-field">
+                        <label for="sothe"></label>
+                        <input type="text" name="sothe" id="sothe" autocomplete="off"
+                            placeholder="Số thẻ"><br>
+                        <small></small>
+                    </div>
+                    <div class="form-field">
+                        <label for="mathe"></label>
+                        <input type="text" name="mathe" id="mathe" autocomplete="off" placeholder="Mã thẻ"><br>
+                        <small></small>
+                    </div>
+        
+                    <div class="form-field">
+                        <label for="ngayhethan"></label>
+                        <input type="text" name="ngayhethan" id="ngayhethan" autocomplete="off"
+                            placeholder="Ngày hết hạn"><br>
+                        <small></small>
+                    </div>
+                    <button class="send-info" type="submit">
                         Thanh toán
                     </button>
                 </form>

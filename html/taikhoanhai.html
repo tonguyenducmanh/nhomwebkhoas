@@ -81,12 +81,22 @@
             </div>
             <br>
             <div class="text-container">
-                <form method="get" class="text-form" action="thongtincanhan.html">
-                    <input type="text" class="email" placeholder="Email">
-                    <input type="text" class="password" placeholder="Mật khẩu">
-                    <button class="send-info">
-                        Đăng nhập
-                    </button>
+                    <form id="signin" class="text-form" method="get" class="form" action="thongtincanhan.html">
+                        <div class="form-field">
+                            <label for="Email"></label>
+                            <input type="text" name="email" id="email" autocomplete="off" placeholder="Email"><br>
+                            <small></small>
+                        </div>
+            
+                        <div class="form-field">
+                            <label for="password"></label>
+                            <input type="password" name="password" id="password" autocomplete="off"
+                                placeholder="Mật khẩu"><br>
+                            <small></small>
+                        </div>
+                        <button class="send-info" type="submit">
+                            Đăng nhập
+                        </button>
                     <div class="text-box-signin">
                         <a href="taikhoan.html">Bạn chưa có tài khoản? Đăng ký</a>
                     </div>

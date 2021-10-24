@@ -80,17 +80,39 @@
                 Đăng ký
             </div>
             <br><br>
+            <!--Các thẻ small bên dưới được bỏ trống để khi nào mình nhập sai quy định
+            nó sẽ được các đoạn mã trong javascript làm cho hiện lên-->
             <div class="text-container">
-                <form method="get" class="text-form" action="taikhoanhai.html">
-                    <input type="text" class="firstname" placeholder="Họ">
-                    <input type="text" class="lastname" placeholder="Tên">
-                    <input type="text" class="email" placeholder="Email">
-                    <input type="text" class="password" placeholder="Mật khẩu">
-                    <input type="text" placeholder="Nhập lại mật khẩu">
+                <form id="signup" class="text-form" method="get" class="form" action="taikhoanhai.html">
+                    <div class="form-field">
+                        <label for="username"></label>
+                        <input type="text" name="username" id="username" autocomplete="off" placeholder="Họ và tên"><br>
+                        <small></small>
+                    </div>
+        
+                    <div class="form-field">
+                        <label for="Email"></label>
+                        <input type="text" name="email" id="email" autocomplete="off" placeholder="Email"><br>
+                        <small></small>
+                    </div>
+        
+                    <div class="form-field">
+                        <label for="password"></label>
+                        <input type="password" name="password" id="password" autocomplete="off"
+                            placeholder="Mật khẩu"><br>
+                        <small></small>
+                    </div>
+        
+                    <div class="form-field">
+                        <label for="username"></label>
+                        <input type="password" name="confirm-password" id="confirm-password" autocomplete="off"
+                            placeholder="Nhập lại mật khẩu"><br>
+                        <small></small>
+                    </div>
                     <input type="text" class="number" placeholder="Số điện thoại">
                     <input type="text" class="place" placeholder="Địa chỉ">
                     <input type="datetime" class="name" placeholder="Ngày sinh">
-                    <button class="send-info">
+                    <button class="send-info" type="submit">
                         Đăng ký
                     </button>
                 </form>

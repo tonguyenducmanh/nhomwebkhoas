@@ -213,3 +213,26 @@ body{
         width: 120px;
     }
 }
+.form-field label {
+    display: block;
+    color: #777;
+    margin-bottom: 5px;
+}
+.form-field input:focus {
+    outline: none;
+}
+.form-field.error input {
+    border-bottom: 1px solid rgb(255, 124, 124);
+}
+.form-field.success input {
+    border-bottom: 1px solid black;
+}
+.form-field small {
+    color: red;
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+    width: 400px;
+}
+
